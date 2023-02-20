@@ -98,7 +98,7 @@ useEffect(()=>{
           </span>
         </div>
         <div className="flex flex-col h-screen">
-            <div className="scroll-to-buttom flex flex-col gap-2 px-5 py-10 mt-3 xxs:h-[72%] h-[60%]     
+            <div className="scroll-to-buttom flex flex-col gap-2 px-5 py-10 mt-3 xs:h-[72%] h-[65%]     
             overflow-y-auto scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-600">
               {
                 allMs.length?allMs.map((msg,index)=>{

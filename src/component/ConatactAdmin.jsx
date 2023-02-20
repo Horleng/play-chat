@@ -103,7 +103,7 @@ const ConatactAdmin = ({conversationId,members,isAdmin}) => {
                                     <AiOutlineArrowRight size="25px"/>
                                 </span>
                         </div>
-                        <div id="scroller" className='md:px-16 px-5 py-5 xxs:h-[73vh] h-[50vh]   
+                        <div id="scroller" className='md:px-16 px-5 py-5  xs:h-[72vh] h-[65vh]    
                         bg-gray-300 dark:bg-gray-700 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-600 flex flex-col gap-1'>
                         {
                             messages.length?
